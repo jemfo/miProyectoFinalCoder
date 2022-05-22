@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: O;
+  box-sizing: border-box;
+}
+
+.supnav{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  margin: 0 60px;
+}
+
+.title{
+  font-family:'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
