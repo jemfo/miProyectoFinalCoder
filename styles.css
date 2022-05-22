@@ -3,7 +3,8 @@
   padding: O;
   box-sizing: border-box;
 }
-
+/* =================================================================*/
+/* ajustes header*/
 .supnav{
   display: flex;
   align-items: center;
@@ -16,5 +17,18 @@
 .title{
   font-family:'Montserrat', sans-serif;
   font-size: 2rem;
+  padding: 10px;
 }
 
+ .nav-link{
+   font-weight: 600;
+   margin: 5px;
+ }
+
+ /* =================================================================*/
+ /* main */
+
+
+ /* =================================================================*/
+ /* footer */
+ 
