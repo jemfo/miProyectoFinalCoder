@@ -20,18 +20,21 @@
   padding: 10px;
 }
 
- .nav-link{
+ a .nav-link{
    font-weight: 600;
    margin: 5px;
  }
 
  /* =================================================================*/
  /* main */
-.carousel-item{
+ .carousel-item{
   width: auto;
-  height: 435px;
+  height: 400px;
 }
 
+.texto{
+  text-align: center;
+}
  /* =================================================================*/
  /* footer */
- 
+  
