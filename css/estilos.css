@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: O; }
+
+header {
+  background-color: grey; }
+
+h1 {
+  text-align: center;
+  color: #f5f1f1;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif; }
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  background-color: #657272; }
+
+li {
+  font-weight: 600; }
+  li a {
+    font-family: 'Montserrat', sans-serif; }
+
+div .collapse {
+  justify-content: center; }
+
+.card {
+  transition: all 0.3s; }
+  .card.card:hover {
+    transform: scale(1.1); }

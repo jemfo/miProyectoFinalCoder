@@ -20,8 +20,8 @@
 </head>
 
 <body>
-  <header>
-    <h1>Optica TU VISION</h1>
+  <header class="bg-ligth" style="background-color: rgb(184, 180, 180);">
+    <h1 class="text-center">Optica TU VISION</h1>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(235, 61, 52);">
       <div class="container">
         <a class="navbar-brand" href=""><img src="images/icon 60.png" alt="Optica tu vision"></a>
@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#recetados">Anteojos Recetados</a>
+              <a class="nav-link " href="#recetados">Anteojos Recetados</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#sol">Anteojos de Sol</a>
@@ -53,7 +53,7 @@
 
   <main class="container">
     <section id="recetados" class="rx">
-      <h2 class="text-center mt-5">Anteojos Recetados</h2>
+      <h2 class="text-center mt-3">Anteojos Recetados</h2>
       <p class="text-center mb-1">Trabajamos con las mejores marcas y con materiales de ultima tecnologia, para tus lentes persoanlizados.</p>
       <p class="text-center mb-1">Las ultimas colecciones en monturas de diseño para darte el toque personalizado que estas buscando.</p>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -82,7 +82,7 @@
     </section>
 
     <section id="sol" class="sol">
-      <h2 class="text-center mt-5">Anteojos de Sol</h2>
+      <h2 class="text-center mt-3">Anteojos de Sol</h2>
       <p class="text-center mb-1">Tenemos todas las mejores marcas en lentes de sol</p>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
         <div class="card my-3 mx-auto" style="width: 15rem;">
@@ -125,7 +125,7 @@
     </section>
 
     <section id="lentesCont" class="lc">
-      <div class="row mt-5">
+      <div class="row mt-3">
         <div class="col mt-3">
           <img src="https://via.placeholder.com/500x400" alt="" class="img-fluid mx-3 my-3">
         </div>
@@ -138,24 +138,30 @@
 
     <section id="promos" class="promos">
       <div>
-        <h2 class="text-center mt-5">Nuestras PROMOCIONES</h2>
+        <h2 class="text-center mt-3">Nuestras PROMOCIONES</h2>
         <p class="text-center mb-1">Veni y elegi la promo que estas buscando. Nos ajsutamos a todas tus necesidades.</p>
-        <img src="https://via.placeholder.com/500x400" alt="" class="img-fluid mx-5 my-5 mt-0">
-        <img src="https://via.placeholder.com/500x400" alt="" class="img-fluid mx-5 my-5 mt-0">
+        <img src="https://via.placeholder.com/400x400" alt="" class="img-fluid mx-5 my-5 mt-0">
+        <img src="https://via.placeholder.com/400x400" alt="" class="img-fluid mx-5 my-5 mt-0">
       </div>
     </section>
 
-    <section id="nosotros" class="form mt-5 mb-3">
+    <section id="nosotros" class="form mt-3 mb-3">
       <h2 class="text-center">Contacto</h2>
-      <form>
-        <label>Nombre</label>
-        <input type="text" placeholder="nombre"><br>
-        <label>Apellido</label>
-        <input type="text" placeholder="apellido"><br>
-        <label>___Email</label>
-        <input type="email" placeholder="email">
-      </form>
-      <textarea name="Texto" id="" cols="30" rows="10"></textarea>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="direccion de email">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Enviar</button>
     </section>
   </main>
 
