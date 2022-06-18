@@ -1,47 +1,80 @@
 *{
   margin: 0;
   padding: O;
-  box-sizing: border-box;
 }
 /* =================================================================*/
 /* ajustes header*/
-.supnav{
-  display: flex;
-  align-items: center;
-}
 
-.icon{
-  margin: 0 60px;
-}
-
-.title{
-  font-family:'Montserrat', sans-serif;
-  font-size: 2rem;
-  padding: 10px;
-}
-
- a .nav-link{
-   font-weight: 600;
-   margin: 5px;
- }
-
- /* =================================================================*/
- /* main */
- .carousel-item{
-  width: auto;
-  height: 400px;
-}
-
-.texto{
+h1{
+  color: rgb(245, 241, 241);
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
-.img_rec{
-  width: 400px;
-  height: 420px;
+h2{
+  font-size: 30px;
+  text-align: center;
+
 }
 
- /* animaciones */
+header{
+  background-color: rgb(101, 114, 114);
+}
+
+ul li {
+  align-items: center;
+}
+
+ul li a{
+  font-size: 27px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+div .collapse {
+  justify-content: center;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+ transform:scale(1.1);
+}
+
+ /* =================================================================*/
+ /* main */
+
+/*.rx {
+  background-color: rgb(223, 136, 136);
+}
+
+.sol{
+  background-color: rgb(28, 167, 109);
+}
+
+.lc{
+  background-color: rgb(216, 241, 125);
+}
+
+.promos{
+  background-color: rgb(95, 92, 241);
+}
+
+.form{
+  background-color: rgb(236, 77, 228);
+}*/
+
+
+
+
+
+
+
+/* animaciones 
 
  .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -72,3 +105,4 @@
     opacity: 1;
   }
 }
+*/
