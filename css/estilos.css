@@ -2,11 +2,13 @@
   margin: 0;
   padding: O; }
 
+body {
+  background-color: aquamarine; }
+
 header {
   background-color: grey; }
 
 h1 {
-  text-align: center;
   color: #f5f1f1;
   font-size: 50px;
   font-weight: 900;
@@ -16,6 +18,10 @@ h2 {
   font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem; }
 
 header {
   background-color: #657272; }
