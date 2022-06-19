@@ -2,20 +2,9 @@
   margin: 0;
   padding: O; }
 
-header {
-  background-color: grey; }
-
-h2 {
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif; }
-
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem; }
-
-header {
-  background-color: #657272; }
 
 li {
   font-weight: 600; }
